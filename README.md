@@ -26,3 +26,9 @@ Follow the instructions on the original [KinT Controller Repository](https://git
 The kintrp subfolder in this repository has the files necessary for a successful RP2040 build. It will do the following:
 
 * Caps Lock, Num Lock, and Scroll Lock work as expected with LED's working. Keypad maps to Layer 1, which also activates the Keypad LED.
+
+# Finished Example
+
+![Guts](kintrp_guts.jpg)
+
+![LEDsPretty](kintrp_led.jpg)
