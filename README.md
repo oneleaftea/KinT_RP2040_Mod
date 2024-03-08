@@ -4,7 +4,7 @@ The [KinT Controller](https://github.com/kinx-project/kint) by Michael Stapelber
 
 This project successfully replaces the Teensy with an RP2040 Pro Micro from Aliexpress. Look for the 27 GPIO version that looks like this:
 
-![AliExample](AliExample.webp) 
+![AliExample](images/AliExample.webp) 
 
 ### Special Note
 
@@ -20,7 +20,7 @@ Follow the instructions on the original [KinT Controller Repository](https://git
 4. The only header pins that will map correctly are the ones enclosed in the black borders. So you will need to break up your headers into 4 pieces. 3-pin and 8-pin on the left, 2-pin across, and a 7-pin on the right. The rest are floating and must not be connected to the PCB.
 5. The arrows are the additional wires needed. All of them route FROM the PCB TO the RP2040 board. 
 
-![BoardDiagram](KinT_to_RP2040_Wiring_2.png)
+![BoardDiagram](images/KinT_to_RP2040_Wiring_2.png)
 
 # Programming QMK
 
@@ -30,6 +30,6 @@ The kintrp subfolder in this repository has the files necessary for a successful
 
 # Finished Example
 
-![Guts](kintrp_guts.jpg)
+![Guts](images/kintrp_guts.jpg)
 
-![LEDsPretty](kintrp_led.jpg)
+![LEDsPretty](images/kintrp_led.jpg)
