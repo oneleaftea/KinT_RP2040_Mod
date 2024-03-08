@@ -16,8 +16,9 @@ Follow the instructions on the original [KinT Controller Repository](https://git
 
 1. The original Teensy outline is shown in blue, with the original Teensy labels in black.
 2. The RP2040 is shown in red with the new GPIO pins also in red.
-3. The only header pins that will map correctly are the ones enclosed in the black borders. So you will need to break up your headers into 4 pieces. 3-pin and 8-pin on the left, 2-pin across, and a 7-pin on the right. The rest are floating and must not be connected to the PCB.
-4. The arrows are the additional wires needed. All of them route FROM the PCB TO the RP2040 board. 
+3. The blue pins are ones where the PCB had existing holes. The purple ones are only on the RP2040 board. Also, Pin 25 is not used.
+4. The only header pins that will map correctly are the ones enclosed in the black borders. So you will need to break up your headers into 4 pieces. 3-pin and 8-pin on the left, 2-pin across, and a 7-pin on the right. The rest are floating and must not be connected to the PCB.
+5. The arrows are the additional wires needed. All of them route FROM the PCB TO the RP2040 board. 
 
 ![BoardDiagram](KinT_to_RP2040_Wiring_2.png)
 
